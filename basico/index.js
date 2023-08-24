@@ -16,13 +16,17 @@ document.getElementById("p1").innerHTML = nome;
 document.getElementById("p2").innerHTML = "Idade: " + idade;
 */
 
-
+/*
 //exemplos de user input
+
 //facil: janela
 var username = window.prompt("Qual é seu nome?");
 console.log(username);
 console.log(typeof username); //--> String
+document.getElementById("p3").innerHTML = username + 1;
+*/
 
+/*
 //dificil: botao
 document.getElementById("b1").onclick = function(){
 
@@ -30,3 +34,21 @@ document.getElementById("b1").onclick = function(){
     console.log(username);
     document.getElementById("l1").innerHTML = "Olá, " + username;
 }
+*/
+
+/*
+var x;
+var y;
+var z;
+
+document.getElementById("botaoRodar").onclick = function(){
+
+    x = Math.floor(Math.random() * 6) + 1;
+    y = Math.floor(Math.random() * 6) + 1;
+    z = Math.floor(Math.random() * 6) + 1;
+
+    document.getElementById("xLabel").innerHTML = x;
+    document.getElementById("yLabel").innerHTML = y;
+    document.getElementById("zLabel").innerHTML = z;
+}
+*/
