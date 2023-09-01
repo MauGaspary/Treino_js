@@ -1,22 +1,17 @@
-let nomeCompleto = "Ricardo Gaspary"
-let nome
-let sobrenome
+const resposta = Math.floor(Math.random() * 10 + 1)
+let tentativas = 0
 
-/*
-console.log(user.length)
-console.log(user.charAt(5))
-console.log(user.indexOf("r"))
-console.log(user.lastIndexOf("M"))
+document.getElementById('submitBotao').onclick = function(){
+    let palpite = document.getElementById('palpite').value
+    tentativas++
 
-user = user.trim()
-user = user.toUpperCase()
-*/
-//console.log(user)
-
-//user = user.replaceAll("R", "m")
-
-nome = nomeCompleto.slice(0, nomeCompleto.indexOf(" "))
-sobrenome = nomeCompleto.slice(nomeCompleto.indexOf(" ") + 1)
-
-console.log(nome)
-console.log(sobrenome)
+    if(palpite == resposta){
+        alert(`Parabéns, você acertou! ${palpite} era a resposta certa! Você precisou de ${tentativas} tentativa(s).`)
+    }
+    else if(palpite > resposta){
+        alert('"Voz do Faustão": ERRRRROU. Muito alto.')
+    }
+    else{
+        alert("Voz do Faustão: ERRRRROU. Muito baixo.")
+    }
+}

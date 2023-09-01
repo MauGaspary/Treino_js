@@ -54,6 +54,31 @@ document.getElementById("botaoRodar").onclick = function(){
 */
 
 /*
+let nomeCompleto = "Ricardo Gaspary"
+let nome
+let sobrenome
+
+
+console.log(user.length)
+console.log(user.charAt(5))
+console.log(user.indexOf("r"))
+console.log(user.lastIndexOf("M"))
+
+user = user.trim()
+user = user.toUpperCase()
+
+//console.log(user)
+
+//user = user.replaceAll("R", "m")
+
+nome = nomeCompleto.slice(0, nomeCompleto.indexOf(" "))
+sobrenome = nomeCompleto.slice(nomeCompleto.indexOf(" ") + 1)
+
+console.log(nome)
+console.log(sobrenome)
+*/
+
+/*
 document.getElementById("meuBotao").onclick = function(){
 
     const minhaCheckBox = document.getElementById("minhaCheckBox")
@@ -86,13 +111,13 @@ document.getElementById("meuBotao").onclick = function(){
 */
 
 /*
-var nota = 'F'
+var nota = 'A'
 
 switch(nota){
     case "A":
         console.log(`Parabéns, você foi aprovado com nota ${nota}`)
     case "F":
-        console.log(`Infelizmente, você não foi aprovado com nota ${nota}`)
+        console.log('Infelizmente, você não foi aprovado com nota ', nota)
 }
 */
 
@@ -102,10 +127,23 @@ const logaNota = notaNumber => {
 }
 */
 
-
+/*
 let adulto = verIdade(20)
 console.log(adulto)
 
 function verIdade(idade){
     return idade >= 18 ? true : false
 }
+*/
+
+/*
+let numero = 12345.5
+let numero2 = 1.2
+
+//numero = numero.toLocaleString("en-US") //ingles US
+//numero = numero.toLocaleString("pt-BR", {style: "currency", currency: "BRL"}) //braza
+numero2 = numero2.toLocaleString(undefined, {style: 'percent'})
+
+console.log(numero)
+console.log(numero2)
+*/
