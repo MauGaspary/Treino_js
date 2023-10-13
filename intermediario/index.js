@@ -17,8 +17,7 @@ console.log(frutas)
 */
 
 
-
-
+/*
 let preços = [5, 10, 15, 20, 25]
 console.log(preços)
 preços.sort((a , b)=> a -b )   //ordena de forma crescente (menor para maior)
@@ -36,7 +35,7 @@ let frutas = ['banana', 'abacaxi', 'laranja']
 frutas = frutas.sort().reverse() //sort alfabetica, e em seguida reversa
 
 console.log(frutas)
-
+*/
 
 
 
